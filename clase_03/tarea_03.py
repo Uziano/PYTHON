@@ -5,7 +5,7 @@ while opcion != 0:
     print('Menu de Opciones')
     print('-'*17)
     print('1-Deposito.\n2-Extracción.\n3-Transferencia.\n4-Estado Cuenta.\n0-Salir.')
-    opcion = int(input('\nIngrese la opcion: \n -->'))
+    opcion = (input('\nIngrese la opcion: \n -->'))
 
     if opcion == 1:
         deposito = int(input('Ingrese Monto a depositar: '))
